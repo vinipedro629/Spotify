@@ -4,9 +4,9 @@ const songNameEl = document.getElementById('songName');
 
 // Lista de músicas (coloque mp3 na pasta "music")
 const songs = [
-  { name: 'Música 1', artist: 'Artista A', file: 'In The End [Official HD Music Video] - Linkin Park.mp3' },
-  { name: 'Música 2', artist: 'Artista B', file: 'Numb (Official Music Video) [4K UPGRADE] – Linkin Park [kXYiU_JCYtU].mp3' },
-  { name: 'Música 3', artist: 'Artista C', file: 'Somewhere I Belong (Official Music Video) [4K UPGRADE] – Linkin Park.mp3' }
+  { name: 'Música 1', artist: 'Artista A', file: 'music/song1.mp3' },
+  { name: 'Música 2', artist: 'Artista B', file: 'music/song2.mp3' },
+  { name: 'Música 3', artist: 'Artista C', file: 'music/song3.mp3' }
 ];
 
 // Popula lista de músicas
