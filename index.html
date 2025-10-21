@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotify Clone</title>
+  <title>Spotify Clone Avançado</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,15 +13,29 @@
     </header>
 
     <main>
-      <ul id="playlist" class="playlist"></ul>
-    </main>
-
-    <footer class="player">
-      <div class="current-song">
-        <span id="songName">Selecione uma música</span>
+      <div class="current-track">
+        <img id="cover" src="" alt="Capa da música">
+        <h2 id="songName">Selecione uma música</h2>
+        <p id="artist">Artista</p>
       </div>
-      <audio id="audio" controls></audio>
-    </footer>
+
+      <ul id="playlist" class="playlist"></ul>
+
+      <div class="controls">
+        <button id="prev">⏮</button>
+        <button id="play">▶️</button>
+        <button id="next">⏭</button>
+        <button id="shuffle">🔀</button>
+        <button id="repeat">🔁</button>
+      </div>
+
+      <div class="progress-container">
+        <input type="range" id="progress" value="0" min="0" max="100">
+        <span id="time">00:00</span>
+      </div>
+
+      <audio id="audio"></audio>
+    </main>
   </div>
 
   <script src="script.js"></script>
